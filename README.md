@@ -31,7 +31,7 @@ if (rutVerification('30.686.957-4')) {
 Developing
 ----------
 
-In order to develop, you'll better off installing [http://nodejs.org/](Node.js) in order to run the automated tests and other stuff as well.
+In order to develop, you'll better off installing [Node.js](http://nodejs.org) in order to run the automated tests and other stuff as well.
 
 Then execute the following at the root of the project:
 <pre>
