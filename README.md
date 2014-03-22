@@ -18,31 +18,35 @@ About this class
 Basic usage
 ----------
 
-<pre>&gt;script type="text/javascript" src="dist/rutverifier.min.js"&lt;
+<pre>&lt;script type="text/javascript" src="dist/rutverifier.min.js"&gt;
 if (rutVerification('30.686.957-4')) {
     console.log('RUT is valid');
 } else {
     console.log('RUT is not valid');
 }
-&gt;/script&lt;
+&lt;/script&gt;
 </pre>
 * Congratulations! That's all you've had to do.
 
 Developing
 ----------
 
-In order to develop, you'll have to install Node.js
+In order to develop, you'll better off installing [http://nodejs.org/](Node.js) in order to run the automated tests and other stuff as well.
 
 Then execute the following at the root of the project:
 <pre>
 npm install
-npm install -g grunt-cli
 </pre>
 
 In order to do the JavaScript testing and validation, execute the following at
 the project's root dir:
 <pre>
 grunt
+</pre>
+
+Recommended is to install grunt as a global dependency:
+<pre>
+npm install -g grunt-cli
 </pre>
 
 Pending
